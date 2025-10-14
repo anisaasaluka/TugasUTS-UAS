@@ -1,2 +1,1 @@
-"# coba repo pertama" 
-boleeee
+Tugas Teknik Riset

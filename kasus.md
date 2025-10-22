@@ -22,15 +22,27 @@ Tujuannya adalah menentukan kombinasi jumlah produksi Hoodie dan T-shirt yang me
 
 ### Variabel Keputusan
 - x₁ = jumlah unit Hoodie yang diproduksi per hari  
-- x₂ = jumlah unit T-shirt yang diproduksi per hari
+- x₂ = jumlah unit T-shirt yang diproduksi per hari  
+
 
 ### Fungsi Tujuan
 Maksimalkan total laba harian:
 
 Max Z = 80.000x₁ + 50.000x₂
 
+
 ### Kendala
 
-3x₁ + 1.5x₂ ≤ 300      (batas kain) 2x₁ + 1x₂ ≤ 160        (batas tenaga kerja) 1.5x₁ + 0.5x₂ ≤ 100    (batas jam mesin) 0 ≤ x₁ ≤ 80 0 ≤ x₂ ≤ 150
+3x₁ + 1.5x₂ ≤ 300      (batas penggunaan kain) 2x₁ + 1x₂ ≤ 160        (batas waktu tenaga kerja) 1.5x₁ + 0.5x₂ ≤ 100    (batas jam mesin) 0 ≤ x₁ ≤ 80            (batas permintaan Hoodie) 0 ≤ x₂ ≤ 150           (batas permintaan T-shirt)
 
-Model akan diselesaikan menggunakan **metode Linear Programming (Simplex)**
+#### Penjelasan Kendala:
+1. **Kain:** Setiap Hoodie butuh 3 m kain dan T-shirt butuh 1,5 m. Total kain yang tersedia maksimal 300 m/hari.  
+2. **Tenaga kerja:** Proses pembuatan Hoodie butuh 2 jam kerja, sedangkan T-shirt 1 jam. Total waktu kerja tersedia 160 jam/hari.  
+3. **Jam mesin:** Mesin digunakan 1,5 jam per Hoodie dan 0,5 jam per T-shirt, dengan total waktu maksimal 100 jam/hari.  
+4. **Permintaan:** Produksi harian tidak boleh melebihi permintaan pasar — maksimal 80 Hoodie dan 150 T-shirt per hari.
+
+---
+
+## Catatan
+Model ini akan diselesaikan menggunakan **metode Linear Programming (Simplex)**  
+pada tahap berikutnya (poin 3 atau UAS

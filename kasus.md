@@ -42,7 +42,4 @@ Max Z = 80.000x₁ + 50.000x₂
 4. **Permintaan:** Produksi harian tidak boleh melebihi permintaan pasar — maksimal 80 Hoodie dan 150 T-shirt per hari.
 
 ---
-
-## Catatan
 Model ini akan diselesaikan menggunakan **metode Linear Programming (Simplex)**  
-pada tahap berikutnya (poin 3 atau UAS

@@ -44,9 +44,9 @@ Dari hasil **Excel Solver**, diperoleh kombinasi optimal sebagai berikut:
 | x₂ (T-shirt) | 80 | Produksi T-shirt sebanyak 80 unit/hari |
 | **Z (Laba Maksimum)** | **Rp 7.200.000** | Laba maksimum per hari |
 
-> Semua kendala terpenuhi: tenaga (160) dan mesin (100) terpakai penuh → ini menunjukkan kedua sumber daya tersebut merupakan binding constraints (mengikat).
-> Kain terpakai 240 dari 300 → masih ada sisa 60 meter kain (slack = 60). Artinya kain bukan bottleneck pada solusi ini.
-> WearEase Clothing dapat memperoleh laba maksimum sebesar **Rp 7.200.000 per hari**  
-> dengan kombinasi produksi **40 Hoodie dan 80 T-shirt** tanpa melampaui batas sumber daya.
+- Semua kendala terpenuhi: tenaga (160) dan mesin (100) terpakai penuh → ini menunjukkan kedua sumber daya tersebut merupakan binding constraints (mengikat).
+- Kain terpakai 240 dari 300 → masih ada sisa 60 meter kain (slack = 60). Artinya kain bukan bottleneck pada solusi ini.
+- WearEase Clothing dapat memperoleh laba maksimum sebesar **Rp 7.200.000 per hari**  
+- dengan kombinasi produksi **40 Hoodie dan 80 T-shirt** tanpa melampaui batas sumber daya.
 
 ---

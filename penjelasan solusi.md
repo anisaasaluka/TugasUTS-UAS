@@ -21,7 +21,7 @@
 
 3. **Jam Mesin**  
    Proses jahit dan finishing menggunakan beberapa mesin jahit.  
-   Terdapat **10 mesin** dengan total kapasitas penggunaan **100 jam per hari** (sesuai data tugas).  
+   Terdapat **10 mesin** dengan total kapasitas penggunaan **100 jam per hari**.  
    Angka ini dicapai melalui pengoperasian mesin secara bergantian dengan pengaturan **shift/overlap**,
    - **Grup A (10 operator)** bekerja pukul **08.00 – 16.00**,  
    - **Grup B (10 operator)** bekerja pukul **10.00 – 18.00**.
@@ -54,8 +54,7 @@ Semua kendala terpenuhi:
 - **Kain** terpakai 240 dari 300 → masih ada sisa 60 meter kain (slack = 60).  
 - Artinya, kain bukan faktor pembatas utama (*bottleneck*) pada solusi ini.  
 
-Dengan kombinasi ini, WearEase Clothing dapat memperoleh laba maksimum sebesar **Rp 7.200.000 per hari**  
-tanpa melampaui batas sumber daya yang tersedia.
+Dengan kombinasi ini, WearEase Clothing dapat memperoleh laba maksimum sebesar **Rp 7.200.000 per hari** tanpa melampaui batas sumber daya yang tersedia.
 
 ---
 

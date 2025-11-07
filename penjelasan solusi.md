@@ -49,10 +49,10 @@ x₂ (T-shirt) : 80
   - Tenaga kerja: (2 × 40) + (1 × 80) = **160 jam**  
   - Mesin: (1.5 × 40) + (0.5 × 80) = **100 jam**
     
-> Semua kendala terpenuhi:  
-> - **Tenaga kerja (160)** dan **mesin (100)** terpakai penuh → menunjukkan bahwa keduanya merupakan **binding constraints** (mengikat).  
-> - **Kain** terpakai 240 dari 300 → masih ada sisa 60 meter kain (slack = 60).  
->   Artinya, kain bukan faktor pembatas utama (*bottleneck*) pada solusi ini.  
+Semua kendala terpenuhi:  
+- **Tenaga kerja (160)** dan **mesin (100)** terpakai penuh → menunjukkan bahwa keduanya merupakan **binding constraints** (mengikat).  
+- **Kain** terpakai 240 dari 300 → masih ada sisa 60 meter kain (slack = 60).  
+- Artinya, kain bukan faktor pembatas utama (*bottleneck*) pada solusi ini.  
 
 Dengan kombinasi ini, WearEase Clothing dapat memperoleh laba maksimum sebesar **Rp 7.200.000 per hari**  
 tanpa melampaui batas sumber daya yang tersedia.
@@ -70,24 +70,19 @@ x₂ (T-shirt) : 90
   - Tenaga kerja: (2 × 50) + (1 × 90) = **190 jam**  
   - Mesin: (1.5 × 50) + (0.5 × 90) = **120 jam**
 
-> Walaupun laba meningkat secara matematis, kombinasi ini **tidak feasible**  
-> karena **melampaui kapasitas tenaga kerja (160 jam)** dan **jam mesin (100 jam)** yang tersedia.
+Walaupun laba meningkat secara matematis, kombinasi ini **tidak feasible**  
+karena **melampaui kapasitas tenaga kerja (160 jam)** dan **jam mesin (100 jam)** yang tersedia.
 
 ---
 
 ### Kesimpulan
 
-> Berdasarkan dua skenario pengujian, **Uji Pertama** merupakan kombinasi produksi yang paling efisien dan realistis  
-> untuk kondisi sumber daya harian WearEase Clothing.  
-> Sementara **Uji Kedua** menunjukkan potensi peningkatan laba, namun hanya bisa diterapkan  
-> apabila kapasitas tenaga kerja dan jam operasi mesin ditingkatkan.  
-> Oleh karena itu, kombinasi **40 Hoodie dan 80 T-shirt** dipilih sebagai **solusi optimal**  
-> dengan laba maksimum **Rp 7.200.000 per hari**.
+Berdasarkan dua skenario pengujian, **Uji Pertama** merupakan kombinasi produksi yang paling efisien dan realistis untuk kondisi sumber daya harian WearEase Clothing. Sementara **Uji Kedua** menunjukkan potensi peningkatan laba, namun hanya bisa diterapkan apabila kapasitas tenaga kerja dan jam operasi mesin ditingkatkan. Oleh karena itu, kombinasi **40 Hoodie dan 80 T-shirt** dipilih sebagai **solusi optimal** dengan laba maksimum **Rp 7.200.000 per hari**.
 
 --
 
 ### Catatan
-Feasible : kondisi solusi yang memenuhi semua kendala atau batas sumber daya.
-Binding constraint : kendala yang terpakai penuh dan membatasi hasil optimal.
-Bottleneck : sumber daya paling kritis yang membatasi peningkatan produksi.
-Slack : sisa kapasitas atau ruang kosong dari sumber daya yang belum terpakai.
+- Feasible : kondisi solusi yang memenuhi semua kendala atau batas sumber daya.
+- Binding constraint : kendala yang terpakai penuh dan membatasi hasil optimal.
+- Bottleneck : sumber daya paling kritis yang membatasi peningkatan produksi.
+- Slack : sisa kapasitas atau ruang kosong dari sumber daya yang belum terpakai.
